@@ -1,0 +1,73 @@
+body{
+  background-color: #cac7c7;
+}
+
+.main-header {
+  font-size: 2.5rem;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  padding: 1rem 0;
+  margin-bottom: 3rem;
+}
+
+.main-header,
+.card__title {
+  font-family: 'Share Tech Mono', monospace;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 1rem;
+}
+
+.card {
+  background: #f5f1eb;
+  font-family: 'Titillium Web', sans-serif;
+  padding: 1em;
+  box-shadow: 5px 5px 5px #7a7a7a;
+}
+.card:hover {
+  box-shadow: 5px 5px 5px #000;
+}
+
+.card__image {
+  width: 100%;
+}
+
+.card__title{
+  font-size: 1.6rem;
+}
+
+.card__subtitle {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.card a{
+  text-decoration: none;
+}
+
+.dealer__button {
+  background: #000;
+  color: white;
+  display: block;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 0.875rem;
+  padding: .3rem .95rem;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.dealer__button:hover,
+.dealer__button:active {
+  background: #ce2029;
+  color: #fff;
+  cursor: pointer;
+}
+
+.dealer__button:focus {
+  outline: none;
+}

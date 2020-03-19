@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.container {
+  border: 1px solid black;
+  box-shadow: 5px 5px 10px #000;
+  width: 450px;
+  margin: 5% auto;
+  position: relative;
+}
+
+.flag__rows {
+  width: 100%;
+}
+
+.flag__row--red {
+  background-color: #cc0000;
+  display: block;
+  height: 18px;
+}
+
+.flag__row--white {
+  height: 18px;
+}
+
+.flag__stars {
+  width: 43.5%;
+  position: absolute;
+  top: 1.8px;
+  left: 1.5px;
+}
