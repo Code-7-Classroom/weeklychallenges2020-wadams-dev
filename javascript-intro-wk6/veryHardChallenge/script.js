@@ -12,7 +12,7 @@ var operator = prompt('Enter an operator ( + , - , * or / ): ');
 var secondNumber = prompt('Enter a second number: ');
 var answer;
 
-// addition functions
+// addition function
 function add(firstNumber, secondNumber){
   answer = parseFloat(firstNumber) + parseFloat(secondNumber);
   console.log(firstNumber + ' + ' + secondNumber + ' = ' + answer);
