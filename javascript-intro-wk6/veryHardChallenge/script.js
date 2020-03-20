@@ -51,7 +51,7 @@ switch(true) {
     divide(firstNumber, secondNumber);
     break;
   default :
-    console.log('Try Again. Please answer each prompt correcty.');
+    console.log('Try Again. Please answer each prompt correctly.');
 }
 
 // if else statement that call the functions that correlates to what user input
