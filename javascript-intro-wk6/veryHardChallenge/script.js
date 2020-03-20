@@ -37,17 +37,17 @@ function divide(firstNumber, secondNumber){
 }
 
 //switch statement that calls the functions that correlates to what user input
-switch(true) {
-  case operator === '+':
+switch(operator) {
+  case '+':
     add(firstNumber, secondNumber);
     break;
-  case operator === '-':
+  case '-':
     subtract(firstNumber, secondNumber);
     break;
-  case operator === '*':
+  case '*':
     multiply(firstNumber, secondNumber);
     break;
-  case operator === '/':
+  case '/':
     divide(firstNumber, secondNumber);
     break;
   default :
