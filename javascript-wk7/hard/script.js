@@ -18,7 +18,7 @@ var jerryHeight = 10/2.54;//convert centimeters to inches by dividing value by 2
 var jerryMass = 45/454;//convert grams to pounds by dividing value by 454
 var jerryBMI = bmi(jerryMass,jerryHeight);
 
-//calculate BMI
+//calculate BMI using US customary system formula
 function bmi(mass,height){
     var bmi = 703 * (mass / Math.pow(height, 2));
     bmi = parseFloat(bmi.toFixed(1));//bmi value has only 1 digit after decimal (ex. 20.1)
