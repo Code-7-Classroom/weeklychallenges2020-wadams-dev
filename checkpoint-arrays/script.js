@@ -1,15 +1,24 @@
-// .push(), .pop(), .slice()
+//1) .push(), .pop(), .slice()
+
+
+function addDrink(item){
+    drinks.push(item);
+}
+
+function addFood(item){
+    foods.push(item);
+}
 
 var drinks = [];
-drinks.push('coffee');
-drinks.push('water');
-drinks.push('tea');
+addDrink('water');
+addDrink('coffee');
+addDrink('tea');
 console.log(drinks);
 
 var foods = [];
-foods.push('apple');
-foods.push('sandwich');
-foods.push('chips');
+addFood('apple');
+addFood('sandwich');
+addFood('chips');
 console.log(foods);
 
 var meals = drinks.concat(foods);
