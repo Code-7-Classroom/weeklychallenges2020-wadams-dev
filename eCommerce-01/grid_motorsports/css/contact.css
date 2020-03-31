@@ -1,0 +1,148 @@
+.hero-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://repokar.com/public/files/niches_blog_images/383629fb781712af195d8c220ac7bc48.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 15%;
+}
+
+.hero-text {
+  text-align: center;
+  color: #fff;
+  font-size: 3rem;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: normal;
+  text-shadow: 5px 5px 2px #000;
+}
+
+.heading {
+  font-size: 1.6rem;
+}
+
+form {
+  background-color: #fff;
+  border: 5px solid #000;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #aaa;
+  width: 70%;
+  margin: 0 auto 2.5%;
+  padding: 2%;
+  max-width: 500px;
+}
+
+label {
+  display: block;
+  font-size: 1.1rem;
+}
+
+input[type=text] {
+  display: block;
+  height: 25px;
+  width: 100%;
+  margin: 5px 0;
+  border: 1px solid #000;
+}
+
+input[type=tel] {
+  display: block;
+  height: 25px;
+  width: 100%;
+  margin: 5px 0;
+  border: 1px solid #000;
+}
+
+input[type=email] {
+  display: block;
+  height: 25px;
+  width: 100%;
+  margin: 5px 0;
+  border: 1px solid #000;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  border: 1px solid #000;
+  margin: 5px 0;
+}
+
+.btn {
+  padding: 1%;
+  color: #000;
+  background: rgb(202, 201, 198);
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  background-color: #df0000;
+  border: 1px solid #000;
+  color: #fff;
+}
+
+@media (max-width: 625px) {
+  .hero-img {
+    padding: 15%;
+  }
+
+  .hero-text {
+    font-size: 2rem;
+  }
+
+  form{
+    width: 80%;
+  }
+
+  .heading {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-img {
+    padding: 8%;
+  }
+
+  .hero-text {
+    font-size: 5.625rem;
+    text-shadow: 10px 10px 5px #000;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+
+  form {
+    border-width: 5px;
+    width: 50%;
+    max-width: 650px;
+  }
+
+  label {
+    font-size: 1.3rem;
+  }
+
+  input[type=text] {
+    margin: 10px 0;
+  }
+
+  input[type=tel] {
+    margin: 10px 0;
+  }
+
+  input[type=email] {
+    margin: 10px 0;
+  }
+
+  textarea {
+    border: 1px solid #000;
+  }
+
+  .btn {
+    padding: 2%;
+  }
+}

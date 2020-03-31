@@ -1,0 +1,150 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Merriweather Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(207, 207, 207);
+}
+
+.list-items {
+  list-style: none;
+  display: block;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid #000;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.list-items:hover {
+  border-color: white;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-bar {
+  margin: 0;
+  text-align: center;
+  padding: 0;
+  background-color: #000;
+}
+
+.heading {
+  text-align: center;
+  font-weight: normal;
+}
+
+.footer {
+  background-color: #000;
+  text-align: center;
+  margin-top: auto;
+}
+
+footer a {
+  color: #fff;
+}
+
+.footer-links {
+  color: #fff;
+  font-size: 0.75rem;
+  margin: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.logo-container {
+  background-color: #fff;
+  display: inline-block;
+  padding: 2px;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  display: block;
+  margin: 5px auto;
+}
+
+.copyright {
+  color: #fff;
+  font-size: 0.75rem;
+  margin: 0;
+}
+
+@media (max-width: 625px) {
+  .list-items {
+    padding: 10px;
+    list-style: none;
+    display: block;
+    margin: 0;
+    font-size: 0.75rem;
+  }
+
+  .nav-bar {
+    text-align: center;
+    padding: 0;
+  }
+
+  .footer-links {
+    font-size: 0.7rem;
+    margin: 10px;
+  }
+
+  .logo {
+    height: 40px;
+    width: 40px;
+    margin: 2px auto;
+  }
+
+  .copyright {
+    font-size: 0.70rem;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .list-items {
+    list-style: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 0;
+    border: none;
+    font-size: 1rem;
+  }
+
+  .list-items:hover {
+    border-color: #000;
+  }
+
+  .link:hover {
+    color: #fff;
+  }
+  
+  .active-page {
+    padding: 5px;
+    border: 5px solid #000;
+  }
+
+  .nav-bar {
+    padding: 1%;
+    text-align: center;
+  }
+
+  .footer {
+    padding: 10px 0;
+  }
+
+  .footer-links {
+    margin: 20px;
+  }
+  .footer-links:hover {
+    color: #fff;
+  }
+}

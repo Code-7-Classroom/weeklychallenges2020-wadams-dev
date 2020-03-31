@@ -1,0 +1,113 @@
+.hero-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://s3.amazonaws.com/the-drive-staging/message-editor%2F1547052228706-dsc_0009.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 15%;
+}
+
+.hero-text {
+  text-align: center;
+  color: #fff;
+  font-size: 3rem;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: normal;
+  text-shadow: 5px 5px 2px #000;
+}
+
+ .container {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 10px;
+   margin: 10px;
+} 
+
+.card {
+  background: #f5f1eb;
+  padding: 1em;
+  box-shadow: 5px 5px 5px #7a7a7a;
+
+}
+.card:hover {
+  box-shadow: 5px 5px 5px #000;
+}
+
+.card__image {
+  width: 100%;
+}
+
+.card__title{
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.card__subtitle {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.card a{
+  text-decoration: none;
+}
+
+.dealer__button {
+  background: #000;
+  color: white;
+  display: block;
+  font-size: 0.875rem;
+  padding: .3rem .95rem;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.dealer__button:hover,
+.dealer__button:active {
+  background: #ce2029;
+  color: #fff;
+  cursor: pointer;
+}
+
+.dealer__button:focus {
+  outline: none;
+}
+
+@media (max-width: 625px) {
+  .hero-img {
+    padding: 15%;
+  }
+
+  .hero-text {
+    font-size: 2rem;
+  }
+
+  .container {
+    display: block;
+ } 
+ 
+ .card {
+   width: 250px;
+   margin: 5px auto;
+ }
+}
+
+@media (min-width: 992px) {
+  .hero-img {
+    padding: 8%;
+  }
+
+  .hero-text {
+    font-size: 5.625rem;
+    text-shadow: 10px 10px 5px #000;
+  }
+
+  .container {
+  display: flex;
+  flex-wrap: wrap;
+} 
+
+  .card {
+  width: 300px;
+  margin: 5px;
+}
+}

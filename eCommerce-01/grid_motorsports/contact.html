@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inventory</title>
+    <link rel="stylesheet" href="css/shared.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header id="top">
+      <nav>
+        <ul class="nav-bar">
+          <li class="list-items"><a class="link" href="index.html">home</a></li>
+          <li class="list-items">
+            <a class="link" href="inventory.html">inventory</a>
+          </li>
+          <li class="list-items">
+            <a class="link active-page" href="contact.html">contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="hero-img">
+        <h1 class="hero-text">Contact Us</h1>
+      </div>
+    </header>
+    <main>
+      <h1 class="heading">We look forward to hearing from you!</h1>
+
+      <form
+        action="mailto:someone@example.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <label for="first-name">First name:</label>
+        <input
+          type="text"
+          id="first-name"
+          name="first-name"
+          placeholder=" First Name"
+          required
+        />
+
+        <label for="last-name">Last name:</label>
+        <input
+          type="text"
+          id="last-name"
+          name="last-name"
+          placeholder=" Last Name"
+          required
+        />
+
+        <label for="phone">Phone number:</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+          placeholder=" 123-456-7890"
+          required
+        />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          size="30"
+          placeholder=" Email"
+          required
+        />
+        <p id="validatorText"></p>
+        <label for="comment">Comment:</label>
+        <textarea
+          id="comment"
+          name="comment"
+          rows="5"
+          cols="33"
+          placeholder=" Leave your comment here."
+          required
+        ></textarea>
+
+        <input
+          class="btn"
+          type="submit"
+          value="Submit"
+          onclick="emailValidator()"
+        />
+      </form>
+    </main>
+    <footer class="footer">
+      <div>
+        <p><a href="#top">back to top</a></p>
+        <a
+          class="footer-links"
+          href="https://www.facebook.com/"
+          target="_blank"
+          rel="noreferrer"
+          title="Go to Facebook.com"
+          >Facebook</a
+        >
+        <a
+          class="footer-links"
+          href="https://www.instagram.com/"
+          target="_blank"
+          rel="noreferrer"
+          title="Go to Instagram.com"
+          >Instagram</a
+        >
+        <a
+          class="footer-links"
+          href="https://twitter.com/"
+          target="_blank"
+          rel="noreferrer"
+          title="Go to Twitter.com"
+          >Twitter</a
+        >
+      </div>
+      <div class="logo-container">
+        <img class="logo" src="images/steering-wheel.png" alt="company logo" />
+      </div>
+      <p class="copyright">&copy;Grid Motorsports 2020</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+    <link rel="stylesheet" href="css/shared.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header id="top">
+      <nav>
+        <ul class="nav-bar">
+          <li class="list-items">
+            <a class="link active-page" href="index.html">home</a>
+          </li>
+          <li class="list-items">
+            <a class="link" href="inventory.html">inventory</a>
+          </li>
+          <li class="list-items">
+            <a class="link" href="contact.html">contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="hero-img">
+        <h1 class="hero-text">Grid Motorsports</h1>
+      </div>
+    </header>
+    <main>
+      <section class="info">
+        <h2 class="welcome">Welcome to Grid Motorsports</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium
+          laboriosam repellat et, rem sunt velit eius unde enim cumque
+          perspiciatis veritatis dolor architecto dignissimos debitis voluptas
+          qui excepturi earum! Cupiditate! Lorem ipsum, dolor sit amet
+          consectetur adipisicing elit. Nobis, iure!
+        </p>
+      </section>
+
+      <section class="info">
+        <h2 class="welcome">Our mission</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ut libero
+          quis dolores soluta, quam dicta voluptatem voluptatum, unde expedita
+          magni distinctio animi porro omnis atque velit sed amet
+          necessitatibus.
+        </p>
+      </section>
+
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="slide">
+          <img class="slide-img" src="images/mclaren-675lt.jpg" alt="mclaren 675lt" />
+        </div>
+
+        <div class="slide">
+          <img class="slide-img" src="images/mclaren-720s.jpg" alt="mclaren 720s" />
+        </div>
+
+        <div class="slide">
+          <img class="slide-img" src="images/mclaren-p1.jpg" alt="mclaren p1" />
+        </div>
+
+        <div class="slide">
+          <img class="slide-img" src="images/mclaren-senna.jpg" alt="mclaren senna" />
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="nextSlide(-1)">&#10094;</a>
+        <a class="next" onclick="nextSlide(1)">&#10095;</a>
+      </div>
+    </main>
+    <footer class="footer">
+      <div>
+        <p><a href="#top">back to top</a></p>
+        <a
+          class="footer-links"
+          href="https://www.facebook.com/"
+          target="_blank"
+          rel="noreferrer"
+          title="Go to Facebook.com"
+          >Facebook</a
+        >
+        <a
+          class="footer-links"
+          href="https://www.instagram.com/"
+          target="_blank"
+          rel="noreferrer"
+          title="Go to Instagram.com"
+          >Instagram</a
+        >
+        <a
+          class="footer-links"
+          href="https://twitter.com/"
+          target="_blank"
+          rel="noreferrer"
+          title="Go to Twitter.com"
+          >Twitter</a
+        >
+      </div>
+      <div class="logo-container">
+        <img class="logo" src="images/steering-wheel.png" alt="company logo" />
+      </div>
+      <p class="copyright">&copy;Grid Motorsports 2020</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
