@@ -1,0 +1,10 @@
+/*
+  Very Easy
+*/
+
+var - var declares a variable can be accessed globally, or locally to a function regardless of block scope.
+
+let - let declares a block scope variable, which means it can only be accessed/mutated within it's block;
+
+const - const or Constants are block-scoped variables, similar to variables defined using the let keyword.
+        However, the value of a constant variable cannot be changed or redeclared.
