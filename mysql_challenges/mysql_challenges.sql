@@ -140,7 +140,7 @@ UPDATE top_movies_copy
 SET dir_first_name = 'Scott', dir_last_name = 'Waugh'
 WHERE title = 'Need for Speed';
 
-SELECT CONCAT_WS(" ", `dir_first_name`, `dir_last_name`) AS `full_name` FROM `top_movies_copy`;
+SELECT concat(dir_first_name,' ',dir_last_name) AS `full_name` FROM top_movies_copy;
 
 SELECT * FROM top_movies_copy
 ORDER BY dir_last_name ASC;
